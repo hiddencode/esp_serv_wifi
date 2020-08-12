@@ -1,0 +1,38 @@
+/home/nekomo/Soft/clion/clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DIDF_PATH=/home/nekomo/esp-idf -G "CodeBlocks - Unix Makefiles" /home/nekomo/Prog/wifi_proc/getting_started/station
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/nekomo/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/nekomo/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/nekomo/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/nekomo/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/nekomo/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements from /home/nekomo/esp/esp-idf/requirements.txt are satisfied.
+-- Found PythonInterp: /usr/bin/python (found version "3.8.3") 
+-- Found Perl: /usr/bin/perl (found version "5.30.2") 
+-- App "wifi_station" version: 1
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs-time.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/nekomo/Prog/wifi_proc/getting_started/station/cmake-build-debug/esp-idf/esp32/esp32_out.ld
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
+-- Adding linker script /home/nekomo/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update asio bootloader bootloader_support bt cbor coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_http_client esp_http_server esp_https_ota esp_https_server esp_local_ctrl esp_netif esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter tinyusb ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/nekomo/esp/esp-idf/components/app_trace /home/nekomo/esp/esp-idf/components/app_update /home/nekomo/esp/esp-idf/components/asio /home/nekomo/esp/esp-idf/components/bootloader /home/nekomo/esp/esp-idf/components/bootloader_support /home/nekomo/esp/esp-idf/components/bt /home/nekomo/esp/esp-idf/components/cbor /home/nekomo/esp/esp-idf/components/coap /home/nekomo/esp/esp-idf/components/console /home/nekomo/esp/esp-idf/components/cxx /home/nekomo/esp/esp-idf/components/driver /home/nekomo/esp/esp-idf/components/efuse /home/nekomo/esp/esp-idf/components/esp-tls /home/nekomo/esp/esp-idf/components/esp32 /home/nekomo/esp/esp-idf/components/esp_adc_cal /home/nekomo/esp/esp-idf/components/esp_common /home/nekomo/esp/esp-idf/components/esp_eth /home/nekomo/esp/esp-idf/components/esp_event /home/nekomo/esp/esp-idf/components/esp_gdbstub /home/nekomo/esp/esp-idf/components/esp_http_client /home/nekomo/esp/esp-idf/components/esp_http_server /home/nekomo/esp/esp-idf/components/esp_https_ota /home/nekomo/esp/esp-idf/components/esp_https_server /home/nekomo/esp/esp-idf/components/esp_local_ctrl /home/nekomo/esp/esp-idf/components/esp_netif /home/nekomo/esp/esp-idf/components/esp_ringbuf /home/nekomo/esp/esp-idf/components/esp_rom /home/nekomo/esp/esp-idf/components/esp_serial_slave_link /home/nekomo/esp/esp-idf/components/esp_system /home/nekomo/esp/esp-idf/components/esp_timer /home/nekomo/esp/esp-idf/components/esp_websocket_client /home/nekomo/esp/esp-idf/components/esp_wifi /home/nekomo/esp/esp-idf/components/espcoredump /home/nekomo/esp/esp-idf/components/esptool_py /home/nekomo/esp/esp-idf/components/expat /home/nekomo/esp/esp-idf/components/fatfs /home/nekomo/esp/esp-idf/components/freemodbus /home/nekomo/esp/esp-idf/components/freertos /home/nekomo/esp/esp-idf/components/heap /home/nekomo/esp/esp-idf/components/idf_test /home/nekomo/esp/esp-idf/components/jsmn /home/nekomo/esp/esp-idf/components/json /home/nekomo/esp/esp-idf/components/libsodium /home/nekomo/esp/esp-idf/components/log /home/nekomo/esp/esp-idf/components/lwip /home/nekomo/Prog/wifi_proc/getting_started/station/main /home/nekomo/esp/esp-idf/components/mbedtls /home/nekomo/esp/esp-idf/components/mdns /home/nekomo/esp/esp-idf/components/mqtt /home/nekomo/esp/esp-idf/components/newlib /home/nekomo/esp/esp-idf/components/nghttp /home/nekomo/esp/esp-idf/components/nvs_flash /home/nekomo/esp/esp-idf/components/openssl /home/nekomo/esp/esp-idf/components/partition_table /home/nekomo/esp/esp-idf/components/perfmon /home/nekomo/esp/esp-idf/components/protobuf-c /home/nekomo/esp/esp-idf/components/protocomm /home/nekomo/esp/esp-idf/components/pthread /home/nekomo/esp/esp-idf/components/sdmmc /home/nekomo/esp/esp-idf/components/soc /home/nekomo/esp/esp-idf/components/spi_flash /home/nekomo/esp/esp-idf/components/spiffs /home/nekomo/esp/esp-idf/components/tcp_transport /home/nekomo/esp/esp-idf/components/tcpip_adapter /home/nekomo/esp/esp-idf/components/tinyusb /home/nekomo/esp/esp-idf/components/ulp /home/nekomo/esp/esp-idf/components/unity /home/nekomo/esp/esp-idf/components/vfs /home/nekomo/esp/esp-idf/components/wear_levelling /home/nekomo/esp/esp-idf/components/wifi_provisioning /home/nekomo/esp/esp-idf/components/wpa_supplicant /home/nekomo/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nekomo/Prog/wifi_proc/getting_started/station/cmake-build-debug

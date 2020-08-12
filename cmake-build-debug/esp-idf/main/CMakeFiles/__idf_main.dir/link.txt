@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmain.a  CMakeFiles/__idf_main.dir/station_example_main.c.obj
+/usr/bin/ranlib libmain.a
